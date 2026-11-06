@@ -2,7 +2,7 @@
   "name": "dsh-desktop-shot",
   "version": "0.4.4",
   "private": true,
-  "description": "Host-side screen capture helper for DSH desktop: one composer button minimizes the DSH window and pops up its own frozen-frame region selector; the crop is inserted straight into the composer through the official attachment intake.",
+  "description": "集成在 DSH 桌面版里的简单截图工具（Windows）：点一下按钮，窗口收起、框选，裁剪图自动进草稿框。",
   "type": "module",
   "main": "lib/index.mjs",
   "exports": {
