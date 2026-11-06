@@ -1,0 +1,20 @@
+# dependencies
+node_modules/
+
+# logs and local runtime artifacts
+*.log
+dsh-desktop-shot.log
+
+# OS cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# editors
+.vscode/
+.idea/
+
+# local scratch
+tmp/
+.tmp/
+*.zip

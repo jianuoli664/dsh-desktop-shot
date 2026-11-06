@@ -1,0 +1,8 @@
+# dsh-desktop-shot bundle patch: one insert over the profile root.
+# Host half registers POST /api/dsh-desktop-shot/{minimize,restore,status,trace}:
+# it minimizes the DSH window (Win32 ShowWindow, via a spawned PowerShell child) and
+# watches the clipboard so the window comes back by itself once a screenshot lands.
+# Client half renders the composer button and reports the outcome when the window returns.
+- insert:
+    - id: dsh-desktop-shot
+      name: 'dsh-desktop-shot'
